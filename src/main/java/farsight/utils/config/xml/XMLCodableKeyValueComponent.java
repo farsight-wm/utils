@@ -77,7 +77,7 @@ public class XMLCodableKeyValueComponent extends AbstractXMLCodableComponent<XML
 	
 	@Override
 	public String get(String key) {
-		return store.get(key, key);
+		return store.get(key);
 	}
 	
 	@Override
