@@ -5,17 +5,46 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>utils</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
-
 	<parent>
 		<groupId>farsight-wm</groupId>
 		<artifactId>parent</artifactId>
 		<version>10.5.0</version>
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
+	<artifactId>utils</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0.0-SNAPSHOT</version>
 
 	<name>farsight-wm-utils</name>
+	<description>Basic utilities</description>
+	<url>https://github.com/farsight-wm/utils</url>
+
+	<issueManagement>
+		<url>https://github.com/farsight-wm/parent/utils</url>
+		<system>GitHub.com</system>
+	</issueManagement>
+	
+	<scm>
+		<url>https://github.com/farsight-wm/utils</url>
+		<connection>scm:git:https://github.com/farsight-wm/utils.git</connection>
+		<developerConnection>scm:git:https://github.com/farsight-wm/utils.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
+	<licenses>
+		<license>
+			<name>The MIT License (MIT)</name>
+			<url>https://opensource.org/licenses/MIT</url>
+			<distribution>manual</distribution>
+		</license>
+	</licenses>
+	
+	<developers>
+		<developer>
+			<name>Cornelius Wicke</name>
+			<url>https://www.xing.com/profile/Cornelius_Wicke</url>
+		</developer>
+	</developers>
 
 	<dependencies>
 		<dependency>
