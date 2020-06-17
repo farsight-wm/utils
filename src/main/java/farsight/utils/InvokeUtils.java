@@ -1,4 +1,4 @@
-package farsight.utils.services;
+package farsight.utils;
 
 import java.lang.reflect.Field;
 import java.util.LinkedList;

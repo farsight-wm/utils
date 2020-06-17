@@ -1,4 +1,4 @@
-package farsight.utils;
+package farsight.utils.properties;
 
 import java.io.IOException;
 import java.io.InputStream;
