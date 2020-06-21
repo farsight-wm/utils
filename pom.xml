@@ -13,7 +13,7 @@
 	</parent>
 	<artifactId>utils</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 
 	<name>farsight-wm-utils</name>
 	<description>Basic utilities</description>
