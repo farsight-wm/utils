@@ -7,9 +7,9 @@
 
 	<parent>
 		<groupId>farsight-wm</groupId>
-		<artifactId>parent</artifactId>
+		<artifactId>wm-parent</artifactId>
 		<version>10.5.0</version>
-		<relativePath>../parent/pom.xml</relativePath>
+		<relativePath>../wm-parent/pom.xml</relativePath>
 	</parent>
 	<artifactId>utils</artifactId>
 	<packaging>jar</packaging>
@@ -20,7 +20,7 @@
 	<url>https://github.com/farsight-wm/utils</url>
 
 	<issueManagement>
-		<url>https://github.com/farsight-wm/parent/utils</url>
+		<url>https://github.com/farsight-wm/utils/issues</url>
 		<system>GitHub.com</system>
 	</issueManagement>
 	
